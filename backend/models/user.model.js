@@ -10,11 +10,6 @@ const userSchema = new Schema({
     trim: true,
     minlength: 3,
   },
-  age: {
-    type: Number,
-    require: true,
-    minlength: 1,
-  },
 });
 
 const User = mongoose.model("User", userSchema);

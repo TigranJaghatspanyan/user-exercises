@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 
-import "./createUser.scss"
+import "./createExercise.scss";
 
 export default class CreateUser extends Component {
   constructor(props) {
