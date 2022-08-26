@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+.iphoneScreen {
+  height: 690px;
+  padding: 45px 45px;
+  width: max-content;
+  background-image: url("./images/iphone.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.iphoneScreen .wrapper {
+  height: 600px;
+  overflow-y: auto;
+}
